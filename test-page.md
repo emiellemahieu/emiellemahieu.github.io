@@ -1,29 +1,13 @@
 ---
-title: Test Page
+title: Projects
 layout: page
 ---
 
-# This is heading 1
-## This is heading 2
-### This is heading 3
-#### This is heading 4
-##### This is heading 5
-###### This is heading 6
+# Projects
 
-[This is a link](#)
+## Signatures for drawdown paths: A primer
 
-> This is a blockquote
+Download the pdf [Signatures for drawdown paths: A primer](/Users/emiellemahieu/repos/emiellemahieu.github.io/assets/Signatures_primer.pdf).
+## Portfolio drawdown optimization with generative machine learning (R/Finance conference paper)
 
-`This is code`
-
-### Bullet List
-* Item 1
-* Item 2
-* Item 3
-* Item 4
-
-### Number List
-1. Item 1
-2. Item 2
-3. Item 3
-4. Item 4
+## Portfolio drawdown optimization with generative machine learning: A signature approximation approach (Working paper)
