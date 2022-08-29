@@ -47,7 +47,7 @@ author-image: ./assets/images/cv_pic.png
 # 60 Words About the Author
 author-about: "**Emiel Lemahieu** is a quantitative researcher at the Belgian robo-advisory **InvestSuite** and **Ghent University**. His research focuses on **data-driven portfolio construction** techniques. Starting from the general aim to offer smooth-ride investments to retail investors through robo-advisory tools, Emiel has explored traditional risk-based optimization techniques and ways to improve them using novel machine learning approaches. In particular, his research interests lie in using generative machine learning techniques for simulating optimal drawdown portfolios and graph-based methods to assess common sources of downside risk. Emiel holds an **MSc Finance** from **Ghent University** and **King's College London** and is currently pursuing his **PhD at Ghent University**."
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
-author-url: https://linkedin.com/emiellemahieu
+author-url: https://linkedin.com/in/emiel-lemahieu
 
 # SASS
 sass:
