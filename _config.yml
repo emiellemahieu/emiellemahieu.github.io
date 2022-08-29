@@ -23,31 +23,31 @@ heroimage: https://cdn.pixabay.com/photo/2016/11/27/21/42/stock-1863880_1280.jpg
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
 email: emiel.lemahieu@investsuite.com
-facebook_username: /
-twitter_username: /
+facebook_username: 
+twitter_username: 
 instagram_username: /
 linkedin_username: emiellemahieu
 github_username:  emiellemahieu
-youtube_channel_id: /
-reddit_username: /
-behance_username: /
-dribbble_username: /
-spotify_username: /
+youtube_channel_id: 
+reddit_username: 
+behance_username: 
+dribbble_username: 
+spotify_username: 
 
 # Google Analytics
-google-analytics: /
+google-analytics: 
 
 # Disqus
-disqus-shortname: /
+disqus-shortname: 
 
 # Name of the Author
 author-name: Emiel Lemahieu
 # URL for the Image of the Author
 author-image: ./assets/images/cv_pic.png
 # 60 Words About the Author
-author-about: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget pharetra velit, dapibus bibendum ex. Maecenas vitae laoreet mauris, ac luctus metus. Aliquam luctus velit vel ipsum feugiat, vel venenatis mauris hendrerit. Sed at vulputate sapien, eget vehicula dolor. Aliquam volutpat pulvinar neque sit amet sodales.
+author-about: Emiel Lemahieu is a quantitative researcher at the robo-advisory InvestSuite and Ghent University. His research focuses on data-driven portfolio construction techniques. Starting from the general aim to offer smooth-ride investments to retail investors through robo-advisory tools, Emiel has explored traditional risk-based optimization techniques and ways to improve them using novel machine learning approaches. In particular, his research interests lie in using generative machine learning techniques for simulating optimal drawdown portfolios and graph-based methods to assess common sources of downside risk. Emiel holds an MSc Finance from Ghent University and King's College London and is currently pursuing his PhD at Ghent University.
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
-author-url: https://github.com/thedevslot
+author-url: https://linkedin.com/emiellemahieu
 
 # SASS
 sass:
