@@ -3,8 +3,6 @@ title: Projects
 layout: page
 ---
 
-# Projects
-
 ## Signatures for drawdown paths: A primer
 
 Download the pdf [Signatures for drawdown paths: A primer](./assets/Signatures_primer.pdf).
