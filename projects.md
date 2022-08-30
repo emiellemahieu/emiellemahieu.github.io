@@ -6,9 +6,9 @@ layout: page
 
 
 
-The projects that follow require **paths** and **path signatures** as prerequisites. In the words of Terry Lyons:
+The projects belowt hinge on the concepts of **paths** and **path signatures** as prerequisites. In the words of Terry Lyons[^1]:
 
-> The key idea behind signatures is to stop thinking about a path as a quantity evolving over time, but rather as an object that you can query over intervals. As one queries these intervals, one gets a natural description about what happens at different time scales.
+> The key idea behind signatures is to stop thinking about a path as a quantity evolving over time, but rather as an object that you can query over intervals. As one queries these intervals, one gets a natural description about what happens with the system at different time scales.
 
 The primer (based on [Chevyrev et al. 2016](https://arxiv.org/abs/1603.03788)) compiles my notes from a literature review on the signature transform, and includes two examples related to portfolio drawdown:
 
@@ -59,3 +59,7 @@ Download the pdf below:
 #### Working paper
 
 Work in progress - update and pdf will follow soon.
+
+----
+
+[^1]: <iframe width="560" height="315" src="https://youtu.be/RnpHG5pRwZ8?t=116" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
