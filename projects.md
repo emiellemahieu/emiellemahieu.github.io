@@ -6,7 +6,7 @@ layout: page
 
 
 
-The projects belowt hinge on the concepts of **paths** and **path signatures** as prerequisites. In the words of Terry Lyons[^1]:
+The projects below hinge on the concepts of **paths** and **path signatures** as prerequisites. In the words of Terry Lyons[^1]:
 
 > The key idea behind signatures is to stop thinking about a path as a quantity evolving over time, but rather as an object that you can query over intervals. As one queries these intervals, one gets a natural description about what happens with the system at different time scales.
 
