@@ -5,13 +5,38 @@ layout: page
 
 ## Signatures for drawdown paths: A primer
 
-The other projects require paths and path signatures as prerequisites. This primer (based on Chevyrev et al. 2016) were my notes regarding the literature review and includes some examples related to portfolio drawdown.
 
-Download the pdf:
-[Signatures for drawdown paths: A primer](./assets/Signatures_primer.pdf).
+
+The projects that follow require **paths** and **path signatures** as prerequisites. In the words of Terry Lyons:
+
+> The key idea behind signatures is to stop thinking about a path as a quantity evolving over time, but rather as an object that you can query over intervals. As one queries these intervals, one gets a natural description about what happens at different time scales.
+
+The primer (based on [Chevyrev et al. 2016](https://arxiv.org/abs/1603.03788)) compiles my notes from a literature review on the signature transform, and includes two examples related to portfolio drawdown:
+
+- Classifying high-, medium- and low-drawdown stocks in terms of next period expectation using signature transformed previous period paths as features.
+- Distinguishing between high- and low-codrawdown regimes using signature embedded paths.
+
+
+Download the pdf below:
+
+[Signatures for drawdown paths: A primer](./assets/Signatures_drawdowns_primer.pdf).
 
 ## Market Generator models: A literature review
 
+**Market generators** are generative machine learning (ML) models with the specificity of modeling financial markets - such as spot stock markets, option price surfaces and limit order books (microstructure).
+
+The topic has seen a recent surge in interest, and this literature review provides a (non-exhaustive) list of the most important contributions in the field. Moreover, it discusses the following generative ML architectures in detail:
+
+- Generative Adversarial Networks (GAN)
+- Variational Autoencoders (VAE)
+- Generative Moment Matching Networks (GMMN)
+- Normalizing flow-based autoencoders (NF)
+
+Additionally, the literature review describes how each model can be conditioned on some exogenous state variables X to make it a conditional VAE (CVAE), conditional GAN (CGAN), etc. A good example would be to condition the simulation on the state-of-the-economy by including leading macro-economic indicators. In a portfolio construction context, the differences in optimal portfolios resulting from the conditional simulation can then be attributed to the conditions and sensitivities analyzed. A very simple example is included in the literature review.
+
+Download the pdf below:
+
+[Market Generator models: A literature review](./assets/Literature_review.pdf).
 
 ## Portfolio drawdown optimization with generative machine learning (R/Finance conference paper)
 
