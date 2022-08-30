@@ -1,5 +1,5 @@
 ---
-title: Projects
+title: Research Projects
 layout: page
 ---
 ## Signatures for drawdown paths: A primer
