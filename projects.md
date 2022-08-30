@@ -2,7 +2,6 @@
 title: Projects
 layout: page
 ---
-<div style="text-align: left">
 ## Signatures for drawdown paths: A primer
 
 
@@ -59,4 +58,4 @@ Download the pdf below:
 ## Portfolio drawdown optimization with generative machine learning: A signature approximation approach 
 #### Working paper
 
-Work in progress - update and pdf will follow soon.</div>
+Work in progress - update and pdf will follow soon.
