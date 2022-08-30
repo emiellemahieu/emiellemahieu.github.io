@@ -62,7 +62,9 @@ Work in progress - update and pdf will follow soon.
 
 ----
 
+----
+
 [^1]: Reference to this quote and highly recommended is this introduction to signatures and rough path theory given by Terry Lyons at the Royal Statistical Society in 2022 included above. 
 
-##### References
+### References
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/RnpHG5pRwZ8?start=117" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
