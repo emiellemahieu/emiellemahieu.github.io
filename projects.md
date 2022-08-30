@@ -12,7 +12,7 @@ The projects below hinge on the concepts of **paths** and **path signatures** as
 
 The primer (based on [Chevyrev et al. 2016](https://arxiv.org/abs/1603.03788)) compiles my notes from a literature review on the signature transform, and includes two examples related to portfolio drawdown:
 
-- Classifying high-, medium- and low-drawdown stocks in terms of next period expectation using signature transformed previous period paths as features.
+- Classifying high- and low-drawdown stocks in terms of next period expectation using signature transformed previous period paths as features.
 - Distinguishing between high- and low-codrawdown regimes using signature embedded paths.
 
 
@@ -36,7 +36,11 @@ The topic has seen a recent surge in interest, and this literature review provid
 
 Additionally, the literature review describes how each model can be conditioned on some exogenous state variables X to compose a conditional VAE (CVAE), conditional GAN (CGAN), etc. architecture. A good example would be to condition the simulation on the state-of-the-economy by including leading macro-economic indicators. In a portfolio construction context, the differences in optimal portfolios resulting from the conditional simulation can then be attributed to the conditions and sensitivities analyzed. A very simple example is included in the literature review.
 
-Download the pdf below:
+Download a slide summary below:
+
+[Slide summary - Market Generator models: A literature review](./assets/Literature_review_slides.pdf).
+
+Download the full pdf below:
 
 [Market Generator models: A literature review](./assets/Literature_review.pdf).
 
