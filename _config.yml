@@ -11,14 +11,14 @@ title: Emiel Lemahieu
 # Description of the Site
 description: Quantitative Researcher
 # URL of Image of the Site
-site-image: ./assets/images/Highway.mp4
+site-image: ./assets/images/Highway.gif
 # Keywords of the Site
 site-keywords: Emiel, Lemahieu, Researcher, Machine Learning, Finance
 # URL for the Image of custom Favicon
 favicon-url: 
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
-heroimage: ./assets/images/Highway.mp4
+heroimage: ./assets/images/Highway.gif
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
