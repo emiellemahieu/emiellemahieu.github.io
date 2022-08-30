@@ -19,7 +19,7 @@ favicon-url:
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
 # heroimage: ./assets/images/Highway.gif
-heroimage: https://i.imgur.com/Z9v1fOT.gif
+heroimage: ./assets/images/cv_pic.png
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
