@@ -38,6 +38,17 @@ Download the pdf below:
 
 [Market Generator models: A literature review](./assets/Literature_review.pdf).
 
-## Portfolio drawdown optimization with generative machine learning (R/Finance conference paper)
+## Portfolio drawdown optimization with generative machine learning 
+### R/Finance conference paper
 
-## Portfolio drawdown optimization with generative machine learning: A signature approximation approach (Working paper)
+This short paper was presented at the 2022 R/Finance conference in Chicago, IL. It picks one of the above-mentioned architectures - a CVAE - and introduces a signature-based drawdown reconstruction cost loss term. The result is a host of realistic drawdown scenarios, where the optimal portfolio is defined as the ensemble expectation of min drawdown optimizers.
+
+Download the pdf below:
+
+[Portfolio drawdown optimization with generative machine learning](./assets/Portfolio_drawdown_optimization_with_generative_machine_learning___opportunities_and_pitfalls__RFinance.pdf)
+
+
+## Portfolio drawdown optimization with generative machine learning: A signature approximation approach 
+### Working paper
+
+Work in progress - update and pdf will follow soon.
