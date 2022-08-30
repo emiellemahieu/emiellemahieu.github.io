@@ -23,7 +23,7 @@ Download the pdf below:
 
 ## Market Generator models: A literature review
 
-**Market generators** are generative machine learning (ML) models with the specificity of modeling financial markets - such as spot stock markets, option price surfaces and limit order books (microstructure).
+**Market generators** are generative machine learning (ML) models with the specificity of modeling financial markets - such as stocks' spot markets, options' vol surfaces and limit order books (market microstructure).
 
 The topic has seen a recent surge in interest, and this literature review provides a (non-exhaustive) list of the most important contributions in the field. Moreover, it discusses the following generative ML architectures in detail:
 

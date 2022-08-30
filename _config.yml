@@ -2,12 +2,12 @@
 markdown: kramdown
 
 # URL of the Site
-url: ''
+url: 'emiellemahieu.github.io'
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
-baseurl: 
+baseurl: emiellemahieu.github.io
 
 # Title of the Site
-title: EL
+title: Emiel Lemahieu
 # Description of the Site
 description: Quantitative Researcher
 # URL of Image of the Site
