@@ -31,6 +31,7 @@ The topic has seen a recent surge in interest, and this literature review provid
 
 - Generative Adversarial Networks (GAN)
 - Variational Autoencoders (VAE)
+- Restricted Boltzmann Machines (RBM)
 - Generative Moment Matching Networks (GMMN)
 - Normalizing flow-based autoencoders (NF)
 

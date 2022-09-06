@@ -48,7 +48,6 @@ a.navbar-item.is-active {
     &::before {
         filter: blur(0.15rem);
         background-image: url({{site.heroimage}});
-        // background-image: "./assets/images/Highway.gif";
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
