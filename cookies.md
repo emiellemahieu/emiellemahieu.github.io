@@ -27,4 +27,4 @@ If you want to restrict or block the cookies that are set by our website, you ca
 
 # Contacting us
 
-If you have any questions about this policy or our use of cookies, please [contact us](emiellemahieu.github.io/#contact).
+If you have any questions about this policy or our use of cookies, please [contact us](/#contact).
