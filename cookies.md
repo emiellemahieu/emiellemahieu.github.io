@@ -23,7 +23,7 @@ These cookies enable us and third-party services to collect aggregated data for 
 
 # How to delete cookies?
 
-If you want to restrict or block the cookies that are set by our website, you can do so through your browser setting. Alternatively, you can visit [www.internetcookies.com](www.internetcookies.com), which contains comprehensive information on how to do this on a wide variety of browsers and devices. You will find general information about cookies and details on how to delete cookies from your device.
+If you want to restrict or block the cookies that are set by our website, you can do so through your browser setting. Alternatively, you can visit [www.internetcookies.com](https://www.internetcookies.com), which contains comprehensive information on how to do this on a wide variety of browsers and devices. You will find general information about cookies and details on how to delete cookies from your device.
 
 # Contacting us
 
