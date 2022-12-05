@@ -77,7 +77,7 @@ One way to appreciate the universal non-linearity of the signature - which we re
 When X is not a scalar but a path, the signature terms play the role of the natural basic functions, i.e. the monoids in the path space. This follows naturally when thinking of f as the solution of a differential equation driven by the path X. For linear paths (e.g. time) and linear interactions between f and X, one gets exactly Taylor approximation. The role of the signature is to generalize X to paths, and to generalize f to smooth functions in the Lipschitz (bounded differentials) sense.
 
 
-In this support document to the generative ML paper above, we discuss that, for paths of bounded variation, the drawdown of a path is bounded by the variation of the path, such that this approximation makes sense. We reiterate the main messages from rough path theory, propose drawdown as a non-linear dynamic system and discuss the adequacy of these regressions on real world data.
+In this support document to the generative ML paper above, we discuss that, for paths of bounded variation, the drawdown of a path is bounded by the variation of the path, such that this approximation makes sense. We reiterate the main messages from rough path theory, propose drawdown as a non-linear dynamic system and discuss the adequacy of these regressions on real  world data.
 
 Download the pdf below:
 
