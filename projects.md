@@ -89,7 +89,28 @@ Download the pdf below:
 ## Identifying common sources of drawdown risk: dimension reduction and portfolio selection 
 #### Working paper
 
-Work in progress
+Traditional dimension reduction on financial time series X has revolved
+around principal component analysis (PCA) and penalized least squares
+(PLS) that yield lower-dimensional factors or linear combinations of the data
+that respectively maximize the explained variance (exploiting the inner co-
+variance structure of X) or maximize the explained covariance structure be-
+tween the features X and with some outcome variable Y . In the context
+of financial timeseries, these factors are called risk factors and qualitatively
+correspond to equity style characteristics (market, size, momentum), regions,
+sectors, industries, currencies, etc. These risk factors are used in portfolio
+optimization to (1) translate an optimization into a lower-dimensional prob-
+lem (e.g. to overcome the issue of quadratic scaling of variance-covariance
+terms), (2) explicitly optimize on the factors or clusters yielded by them
+(i.e. optimal spread over factors or diversification, factor rotation and hier-
+archical portfolio optimization). We take this optimization perspective and
+define common risk factors as combinations or portfolios that best capture
+the (co)drawdown structure of the investible universe. We define such an
+optimization problem and elaborate as to why a differentiable approxima-
+tion of the drawdown is required. Next, we quantitatively and qualitatively
+compare drawdown factors with variance factors. Finally, we apply the com-
+mon sources of drawdown risk to portfolio optimization (optimal diversified
+drawdown portfolio) and show the empirical usefulness on an equity portfolio
+strategy.
 
 ----
 
