@@ -81,7 +81,7 @@ In this support document to the generative ML paper above, we discuss that, for 
 
 Download the pdf below:
 
-[Portfolio drawdown optimization with generative machine learning](./assets/Drawdown_as_a_non_linear_dynamic_system%20(10).pdf)
+[Drawdown as a non-linear dynamic system](./assets/Drawdown_as_a_non_linear_dynamic_system%20(10).pdf)
 
 ----
 
