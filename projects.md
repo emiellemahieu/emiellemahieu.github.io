@@ -68,6 +68,32 @@ Work in progress - update and pdf will follow soon.
 ----
 
 ----
+## Drawdown as a non-linear dynamic system 
+#### Support document
+
+One way to appreciate the universal non-linearity of the signature - which we referred to in the generative ML paper as the signature universal approximation theorem - is to stop thinking about our drawdown functional as a closed-form formula, but rather as a dynamic (differential) system, and to see the signature as part of the solution of a controlled differential equation, i.e. the change in drawdown of a portfolio as 'controlled' by the changes in the underlying portfolio value path. This non-linear (but sufficiently smooth) system can be approximated in a Taylor series-like fashion using linear coefficients on the signature. Taylor approximation of a polynomial f of order k tells us exactly that differentiating f k times will yield constants. Taylor's theorem tells us that for a feature X the linear algebra on the power series x^k, k in [0, 1, ...[ is then in the polynomial space of X. Hence, by generating these features and applying linear regression we can get arbitrary close approximation of f, since the power series provide 'natural basic functions'. 
+
+
+When X is not a scalar but a path, the signature terms play the role of the natural basic functions, i.e. the monoids in the path space. This follows naturally when thinking of f as the solution of a differential equation driven by the path X. For linear paths (e.g. time) and linear interactions between f and X, one gets exactly Taylor approximation. The role of the signature is to generalize X to paths, and to generalize f to smooth functions in the Lipschitz (bounded differentials) sense.
+
+
+In this support document to the generative ML paper above, we discuss that, for paths of bounded variation, the drawdown of a path is bounded by the variation of the path, such that this approximation makes sense. We reiterate the main messages from rough path theory, propose drawdown as a non-linear dynamic system and discuss the adequacy of these regressions on real world data.
+
+Download the pdf below:
+
+[Portfolio drawdown optimization with generative machine learning](./assets/Drawdown_as_a_non_linear_dynamic_system (10).pdf)
+
+----
+
+----
+## Identifying common sources of drawdown risk: dimension reduction and portfolio selection 
+#### Working paper
+
+Work in progress
+
+----
+
+----
 
 [^1]: Reference to this quote and highly recommended is this introduction to signatures and rough path theory given by Terry Lyons at the Royal Statistical Society in 2022 included above. 
 
