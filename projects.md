@@ -100,7 +100,7 @@ Data-driven portfolio construction is non-parametric in the sense that it does n
 
 Download the pdf below:
 
-[Generating drawdown-realistic markets using path signatures](./assets/Explainable_non_parametric_portfolio_construction_with_conditional_bootstrapped_Shapley_values (9).pdf)
+[Explainable data-driven portfolio construction with conditional bootstrapped Shapley values](./assets/Explainable_non_parametric_portfolio_construction_with_conditional_bootstrapped_Shapley_values.pdf)
 
 ----
 
