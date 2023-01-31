@@ -82,7 +82,7 @@ Download the pdf below:
 
 ----
 ## Generating drawdown-realistic markets using path signatures
-#### Support document
+#### Working paper
 
 A drawdown is a price fall relative to the historical maximum. Simulation of drawdown-realistic markets is a difficult problem as this path dependent measure depends on the drift, volatility and autocorrelation of the underlying process. But it is an important task, for instance in pricing drawdown insurance options or portfolio drawdown optimization. Handcrafting a parametric process that fully encapsulates drawdown parameters in its dynamics has not been done in literature. Mostly researchers have referred to standard processes such as Brownian motion, where the drawdown distribution can be derived from Levy’s theorem. We advocate an essentially non-parametric approach from machine learning, combining a variational autoencoder genera- tive model with a path signature-based drawdown reconstruction loss function. Machine learning requires a system of differentiable equations that can provide numerical simulations by iteration or learning. Drawdown as an evaluation metric is highly non-trivial as its complexity depends on path length, and as it is discontinous in the continously differentiability sense which impedes evaluating the impact of a change in a parameterised path on its drawdown. By expressing drawdown as essentially a non-linear dynamic system, we propose to resolve this smoothing by approximating drawdown using a path signature’s universality property. We appreciate that this gives a mathematically non-trivial, non-commutative exponential alternative for smoothed, differentiable expressions of drawdown that gives one leeway to simulate drawdown-realistic markets by including a drawdown evaluation metric in the learning objective.
 
@@ -100,7 +100,7 @@ Data-driven portfolio construction is non-parametric in the sense that it does n
 
 Download the pdf below:
 
-[Explainable data-driven portfolio construction with conditional bootstrapped Shapley values](./assets/Explainable_non_parametric_portfolio_construction_with_conditional_bootstrapped_Shapley_values.pdf)
+[Explainable data-driven portfolio construction with conditional bootstrapped Shapley values](./assets/Explainable_non_parametric_portfolio_construction_with_conditional_bootstrapped_Shapley_values (9).pdf)
 
 ----
 
