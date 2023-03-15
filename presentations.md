@@ -19,3 +19,23 @@ The goal was to create a minimum viable automated trading agent (also see slides
 
 Download the robo trader demo (Jupyter notebook) here:
 [RoboTrader demo](./assets/RoboTrader.ipynb).
+
+----
+
+----
+
+## RFinance presentation
+
+Presented at the 2022 RFinance conference in Chicago, IL. 
+
+Download the presentation here: [Rfinance](./assets/Rfinance.pdf).
+
+----
+
+----
+
+## Tactical asset allocation with ML
+
+Presented at the Data Science in Finance and Insurance course of UGent MSc in Banking and Finance. The aim was to detect market regimes and do TAA / market timing using ML.
+
+Download the presentation here: [TAA-UGent](./assets/TAA-UGent.pdf).
