@@ -4,10 +4,14 @@ layout: page
 ---
 ## Omnibus presentation
 
-A collection of slides under the title "Roboadvisors, quant algorithms inside the robots" that discusses roboadvisors, commonly used methods, ML/AI concepts and resources and some of my research. Presented to BSC, Greenhill capital, etc. in early Spring 2023.
+A collection of slides with the title "Roboadvisors, quant algorithms inside the robots" that discusses roboadvisors, commonly used methods, ML/AI concepts and resources and some of my research. Presented to BSC, Greenhill capital, etc. in early Spring 2023.
 
 Download the slides here:
 [Omnibus presentation](./assets/Omnibus.pdf).
+
+----
+
+----
 
 ## Robo trader demo
 
