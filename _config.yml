@@ -11,11 +11,11 @@ title: Emiel Lemahieu
 # Description of the Site
 description: Quantitative Researcher
 # URL of Image of the Site
-site-image: 
+site-image: ./assets/images/craiyon_210001_A_signature_stock_trading_algorithm_with_blood_red_colours_and_wine_red_colours.png
 # Keywords of the Site
 site-keywords: Emiel, Lemahieu, Researcher, Machine Learning, Finance
 # URL for the Image of custom Favicon
-favicon-url: 
+favicon-url: ./assets/images/craiyon_210001_A_signature_stock_trading_algorithm_with_blood_red_colours_and_wine_red_colours.png
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
 heroimage: "https://media3.giphy.com/media/dee1Gnqb84oJFst30V/giphy.gif?cid=790b7611fe9a07f98b9444694bb17a74fb6c320ae8a60db3&rid=giphy.gif&ct=g"
