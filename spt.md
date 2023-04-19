@@ -3,5 +3,4 @@ title: SPT
 layout: page
 ---
 
-<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-<iframe src="http://ec2-13-50-250-4.eu-north-1.compute.amazonaws.com:8501/" style="position:fixed; top:1000; left:0; bottom:0; right:0; width:100%; height:93.8%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"></iframe>
+<meta http-equiv="Refresh" content="0; url='http://ec2-13-50-250-4.eu-north-1.compute.amazonaws.com:8501/'" />
