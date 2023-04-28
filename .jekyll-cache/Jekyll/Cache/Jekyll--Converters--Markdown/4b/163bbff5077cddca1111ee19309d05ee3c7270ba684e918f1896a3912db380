@@ -1,4 +1,4 @@
-I"H7<h2 id="signatures-for-drawdown-paths-a-primer">Signatures for drawdown paths: A primer</h2>
+I"5<h2 id="signatures-for-drawdown-paths-a-primer">Signatures for drawdown paths: A primer</h2>
 
 <p>The projects below hinge on the concepts of <strong>paths</strong> and <strong>path signatures</strong> as prerequisites. In the words of Terry Lyons<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>:</p>
 
@@ -12,6 +12,8 @@
   <li>Classifying high- and low-drawdown stocks in terms of next period expectation using signature transformed previous period paths as features.</li>
   <li>Distinguishing between high- and low-codrawdown regimes using signature embedded paths.</li>
 </ul>
+
+<iframe src="./assets/Signatures_drawdowns_primer.pdf#view=FitH" style="width: 70%; height: 50vh"></iframe>
 
 <p>Download the pdf below:</p>
 
@@ -37,9 +39,13 @@
 
 <p>Additionally, the literature review describes how each model can be conditioned on some exogenous state variables X to compose a conditional VAE (CVAE), conditional GAN (CGAN), etc. architecture. A good example would be to condition the simulation on the state-of-the-economy by including leading macro-economic indicators. In a portfolio construction context, the differences in optimal portfolios resulting from the conditional simulation can then be attributed to the conditions and sensitivities analyzed. A very simple example is included in the literature review.</p>
 
+<iframe src="./assets/Literature_review_slides.pdf#view=FitH" style="width: 70%; height: 50vh"></iframe>
+
 <p>Download a slide summary below:</p>
 
 <p><a href="./assets/Literature_review_slides.pdf">Slide summary - Market Generator models: A literature review</a>.</p>
+
+<iframe src="./assets/Literature_review.pdf#view=FitH" style="width: 70%; height: 50vh"></iframe>
 
 <p>Download the full pdf below:</p>
 
@@ -53,46 +59,55 @@
 
 <p>This short paper was presented at the 2022 R/Finance conference in Chicago, IL. It picks one of the above-mentioned architectures - a CVAE - and introduces a signature-based drawdown reconstruction cost loss term. The result is a host of realistic drawdown scenarios, where the optimal portfolio is defined as the ensemble expectation of min drawdown optimizers.</p>
 
+<iframe src="./assets/Portfolio_drawdown_optimization_with_generative_machine_learning___opportunities_and_pitfalls__RFinance.pdf#view=FitH" style="width: 70%; height: 50vh"></iframe>
+
 <p>Download the pdf below:</p>
 
 <p><a href="./assets/Portfolio_drawdown_optimization_with_generative_machine_learning___opportunities_and_pitfalls__RFinance.pdf">Portfolio drawdown optimization with generative machine learning</a></p>
 
 <hr />
 
-<hr />
-<h2 id="drawdown-as-a-non-linear-dynamic-system">Drawdown as a non-linear dynamic system</h2>
-<h4 id="working-paper">Working paper</h4>
+<!-- ----
+## Drawdown as a non-linear dynamic system 
+#### Working paper
 
-<p>One way to appreciate the universal non-linearity of the signature - which we referred to in the generative ML paper as the signature universal approximation theorem - is to stop thinking about our drawdown functional as a closed-form formula, but rather as a dynamic (differential) system, and to see the signature as part of the solution of a controlled differential equation, i.e. the change in drawdown of a portfolio as ‘controlled’ by the changes in the underlying portfolio value path. This non-linear (but sufficiently smooth) system can be approximated in a Taylor series-like fashion using linear coefficients on the signature. Taylor approximation of a polynomial f of order k tells us exactly that differentiating f k times will yield constants. Taylor’s theorem tells us that for a feature X the linear algebra on the power series x^k, k in [0, 1, …[ is then dense in the polynomial space of X. Hence, by generating these features and applying linear regression we can get arbitrary close approximation of f, since the power series provide ‘natural basic functions’. 
-One way to appreciate the universal non-linearity of the signature - which we referred to in the generative ML paper as the signature universal approximation theorem - is to stop thinking about our drawdown functional as a closed-form formula, but rather as a dynamic (differential) system, and to see the signature as part of the solution of a controlled differential equation, i.e. the change in drawdown of a portfolio as ‘controlled’ by the changes in the underlying portfolio value path. This non-linear (but sufficiently smooth) system can be approximated in a Taylor series-like fashion using linear coefficients on the signature. Taylor approximation of a polynomial f of order k tells us exactly that differentiating f k times will yield constants. Taylor’s theorem tells us that for a feature X the linear algebra on the power series x^k, k in [0, 1, …[ is then dense in the polynomial space of X. Hence, by generating these features and applying linear regression we can get arbitrary close approximation of f, since the power series provide ‘natural basic functions’.</p>
+One way to appreciate the universal non-linearity of the signature - which we referred to in the generative ML paper as the signature universal approximation theorem - is to stop thinking about our drawdown functional as a closed-form formula, but rather as a dynamic (differential) system, and to see the signature as part of the solution of a controlled differential equation, i.e. the change in drawdown of a portfolio as 'controlled' by the changes in the underlying portfolio value path. This non-linear (but sufficiently smooth) system can be approximated in a Taylor series-like fashion using linear coefficients on the signature. Taylor approximation of a polynomial f of order k tells us exactly that differentiating f k times will yield constants. Taylor's theorem tells us that for a feature X the linear algebra on the power series x^k, k in [0, 1, ...[ is then dense in the polynomial space of X. Hence, by generating these features and applying linear regression we can get arbitrary close approximation of f, since the power series provide 'natural basic functions'. 
 
-<p>When X is not a scalar but a path, the signature terms play the role of the natural basic functions, i.e. the monoids in the path space. This follows naturally when thinking of f as the solution of a differential equation driven by the path X. For linear paths (e.g. time) and linear interactions between f and X, one gets exactly Taylor approximation. The role of the signature is to generalize X to paths, and to generalize f to smooth functions in the Lipschitz (bounded differentials) sense.</p>
 
-<p>In this support document to the generative ML paper above, we discuss that, for paths of bounded variation, the drawdown of a path is bounded by the variation of the path, such that this approximation makes sense. We reiterate the main messages from rough path theory, propose drawdown as a non-linear dynamic system and discuss the adequacy of these regressions on real  world data.</p>
+When X is not a scalar but a path, the signature terms play the role of the natural basic functions, i.e. the monoids in the path space. This follows naturally when thinking of f as the solution of a differential equation driven by the path X. For linear paths (e.g. time) and linear interactions between f and X, one gets exactly Taylor approximation. The role of the signature is to generalize X to paths, and to generalize f to smooth functions in the Lipschitz (bounded differentials) sense.
 
-<p>Download the pdf below:</p>
 
-<p><a href="./assets/Drawdown_as_a_non_linear_dynamic_system%20(10).pdf">Drawdown as a non-linear dynamic system</a></p>
+In this support document to the generative ML paper above, we discuss that, for paths of bounded variation, the drawdown of a path is bounded by the variation of the path, such that this approximation makes sense. We reiterate the main messages from rough path theory, propose drawdown as a non-linear dynamic system and discuss the adequacy of these regressions on real  world data.
 
-<hr />
+<iframe src="./assets/Drawdown_as_a_non_linear_dynamic_system%20(10).pdf#view=FitH" style="width: 70%; height: 50vh"></iframe>
+
+Download the pdf below:
+
+[Drawdown as a non-linear dynamic system](./assets/Drawdown_as_a_non_linear_dynamic_system%20(10).pdf)
+
+---- -->
 
 <hr />
 <h2 id="generating-drawdown-realistic-markets-using-path-signatures">Generating drawdown-realistic markets using path signatures</h2>
-<h4 id="working-paper-1">Working paper</h4>
+<h4 id="working-paper">Working paper</h4>
 
-<p>A drawdown is a price fall relative to the historical maximum. Simulation of drawdown-realistic markets is a difficult problem as this path dependent measure depends on the drift, volatility and autocorrelation of the underlying process. But it is an important task, for instance in pricing drawdown insurance options or portfolio drawdown optimization. Handcrafting a parametric process that fully encapsulates drawdown parameters in its dynamics has not been done in literature. Mostly researchers have referred to standard processes such as Brownian motion, where the drawdown distribution can be derived from Levy’s theorem. We advocate an essentially non-parametric approach from machine learning, combining a variational autoencoder genera- tive model with a path signature-based drawdown reconstruction loss function. Machine learning requires a system of differentiable equations that can provide numerical simulations by iteration or learning. Drawdown as an evaluation metric is highly non-trivial as its complexity depends on path length, and as it is discontinous in the continously differentiability sense which impedes evaluating the impact of a change in a parameterised path on its drawdown. By expressing drawdown as essentially a non-linear dynamic system, we propose to resolve this smoothing by approximating drawdown using a path signature’s universality property. We appreciate that this gives a mathematically non-trivial, non-commutative exponential alternative for smoothed, differentiable expressions of drawdown that gives one leeway to simulate drawdown-realistic markets by including a drawdown evaluation metric in the learning objective.</p>
+<p>A drawdown is a price fall relative to the historical maximum. Simulation of drawdown-realistic markets is a difficult problem as this path dependent measure depends on the drift, volatility and autocorrelation of the underlying process. But it is an important task, for instance in pricing drawdown insurance options or portfolio drawdown optimization. Handcrafting a parametric process that fully encapsulates drawdown parameters in its dynamics has not been done in literature. Mostly researchers have referred to standard processes such as Brownian motion, where the drawdown distribution can be derived from Levy’s theorem. We advocate an essentially non-parametric approach from machine learning, combining a variational autoencoder generative model with a path signature-based drawdown reconstruction loss function. Machine learning requires a system of differentiable equations that can provide numerical simulations by iteration or learning. Drawdown as an evaluation metric is highly non-trivial as its complexity depends on path length, and as it is discontinous in the continously differentiability sense which impedes evaluating the impact of a change in a parameterised path on its drawdown. By expressing drawdown as essentially a non-linear dynamic system, we propose to resolve this smoothing by approximating drawdown using a path signature’s universality property. We appreciate that this gives a mathematically non-trivial, non-commutative exponential alternative for smoothed, differentiable expressions of drawdown that gives one leeway to simulate drawdown-realistic markets by including a drawdown evaluation metric in the learning objective.</p>
+
+<iframe src="./assets/Generating_drawdown_realistic_markets_with_path_signatures___PROPOSITIONS (2).pdf#view=FitH" style="width: 70%; height: 50vh"></iframe>
 
 <p>Download the pdf below:</p>
 
-<p><a href="./assets/Generating drawdown-realistic markets using path signatures.pdf">Generating drawdown-realistic markets using path signatures</a></p>
+<p><a href="./assets/Generating_drawdown_realistic_markets_with_path_signatures___PROPOSITIONS (2).pdf">Generating drawdown-realistic markets using path signatures</a></p>
 
 <hr />
 
 <hr />
 <h2 id="explainable-data-driven-portfolio-construction-with-conditional-bootstrapped-shapley-values">Explainable data-driven portfolio construction with conditional bootstrapped Shapley values</h2>
-<h4 id="working-paper-2">Working paper</h4>
+<h4 id="working-paper-1">Working paper</h4>
 
 <p>Data-driven portfolio construction is non-parametric in the sense that it does not impose its objective on a parametric representation of input paths, such as a variance-covariance matrix, but rather imposes its objective directly on these paths without having to make assumptions on their underlying data generating process (DGP). The advantage is thus that one can optimize on much richer dynamics than typical DGP assumptions, e.g. Gaussian assumptions behind mean-variance optimization. The main disadvantage is that one can seemingly interpret the parameters that gave rise to the optimal portfolios not that easily anymore, and for instance do sensitivity analysis, i.e. how will the portfolio change when parameter x or y in- or decreases? This is conducive to the black box perception of increasingly more data-driven portfolio construction tools. However, tools from explainable AI such as Shapley values, which are mathematically principled contribution estimators of features to their output, can be used to overcome this issue. We advocate a novel approach that combines the powerful statistical approach of conditional bootstrapping with Shapley values that attribute changing optimal portfolio weights to changing market conditions. The empirical usefulness is shown on a US equity portfolio backtest, where the portfolio manager gets a better insight in his or her portfolio composition and its sensitivity to changing market conditions.</p>
+
+<iframe src="./assets/Explainable_non_parametric_portfolio_construction_with_conditional_bootstrapped_Shapley_values (9).pdf#view=FitH" style="width: 70%; height: 50vh"></iframe>
 
 <p>Download the pdf below:</p>
 
@@ -102,7 +117,7 @@ One way to appreciate the universal non-linearity of the signature - which we re
 
 <hr />
 <h2 id="identifying-common-sources-of-drawdown-risk-dimension-reduction-and-portfolio-selection">Identifying common sources of drawdown risk: dimension reduction and portfolio selection</h2>
-<h4 id="working-paper-3">Working paper</h4>
+<h4 id="working-paper-2">Working paper</h4>
 
 <p>Traditional dimension reduction on financial time series X has revolved
 around principal component analysis (PCA) and penalized least squares
@@ -126,14 +141,6 @@ compare drawdown factors with variance factors. Finally, we apply the com-
 mon sources of drawdown risk to portfolio optimization (optimal diversified
 drawdown portfolio) and show the empirical usefulness on an equity portfolio
 strategy.</p>
-
-<hr />
-
-<hr />
-<h2 id="portfolio-drawdown-optimization-with-generative-machine-learning-a-signature-approximation-approach">Portfolio drawdown optimization with generative machine learning: A signature approximation approach</h2>
-<h4 id="working-paper-4">Working paper</h4>
-
-<p>Work in progress - update and pdf will follow soon.</p>
 
 <hr />
 
