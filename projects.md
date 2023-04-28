@@ -87,7 +87,7 @@ A drawdown is a price fall relative to the historical maximum. Simulation of dra
 
 Download the pdf below:
 
-[Generating drawdown-realistic markets using path signatures](./assets/Generating drawdown-realistic markets using path signatures.pdf)
+[Generating drawdown-realistic markets using path signatures](./assets/Portfolio_drawdown_optimization_with_generative_machine_learning___opportunities_and_pitfalls__RFinance.pdf)
 
 ----
 
