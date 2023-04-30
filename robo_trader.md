@@ -10,7 +10,7 @@ The goal was to create a minimum viable automated trading agent (also see omnibu
 
 ##### Notebook
 <iframe
-  src="https://emiellemahieu.github.io/robo-trader-demo/lab/index.html"
+  src="https://emiellemahieu.github.io/robo-trader-demo/lab/index.html?path=RoboTrader.ipynb"
   width="100%"
   height="1000px"
 >
