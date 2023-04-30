@@ -8,7 +8,7 @@ The goal was to create a minimum viable automated trading agent (also see omnibu
 
 
 
-
+##### Notebook
 <iframe
   src="https://emiellemahieu.github.io/robo-trader-demo/lab/index.html"
   width="100%"
@@ -17,7 +17,7 @@ The goal was to create a minimum viable automated trading agent (also see omnibu
 </iframe>
 
 
-
+##### Download
 
 Download the robo trader demo (Jupyter notebook) here:
 [RoboTrader demo](./assets/RoboTrader.ipynb).
