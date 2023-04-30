@@ -15,8 +15,10 @@ The primer (based on [Chevyrev et al. 2016](https://arxiv.org/abs/1603.03788)) c
 - Classifying high- and low-drawdown stocks in terms of next period expectation using signature transformed previous period paths as features.
 - Distinguishing between high- and low-codrawdown regimes using signature embedded paths.
 
-<iframe src="./assets/Signatures_drawdowns_primer.pdf#view=FitH" style="width: 70%; height: 50vh"></iframe>
+###### Preview 
+<iframe src="./assets/Signatures_drawdowns_primer.pdf#view=FitV" style="width: 70%; height: 50vh"></iframe>
 
+###### Download 
 Download the pdf below:
 
 [Signatures for drawdown paths: A primer](./assets/Signatures_drawdowns_primer.pdf).
@@ -38,15 +40,18 @@ The topic has seen a recent surge in interest, and this literature review provid
 - Normalizing flow-based autoencoders (NF)
 
 Additionally, the literature review describes how each model can be conditioned on some exogenous state variables X to compose a conditional VAE (CVAE), conditional GAN (CGAN), etc. architecture. A good example would be to condition the simulation on the state-of-the-economy by including leading macro-economic indicators. In a portfolio construction context, the differences in optimal portfolios resulting from the conditional simulation can then be attributed to the conditions and sensitivities analyzed. A very simple example is included in the literature review.
+###### Preview summary
+<iframe src="./assets/Literature_review_slides.pdf#view=FitV" style="width: 70%; height: 50vh"></iframe>
 
-<iframe src="./assets/Literature_review_slides.pdf#view=FitH" style="width: 70%; height: 50vh"></iframe>
-
+###### Download summary
 Download a slide summary below:
 
 [Slide summary - Market Generator models: A literature review](./assets/Literature_review_slides.pdf).
 
-<iframe src="./assets/Literature_review.pdf#view=FitH" style="width: 70%; height: 50vh"></iframe>
+###### Preview main text
+<iframe src="./assets/Literature_review.pdf#view=FitV" style="width: 70%; height: 50vh"></iframe>
 
+###### Download main text
 Download the full pdf below:
 
 [Market Generator models: A literature review](./assets/Literature_review.pdf).
@@ -59,8 +64,10 @@ Download the full pdf below:
 
 This short paper was presented at the 2022 R/Finance conference in Chicago, IL. It picks one of the above-mentioned architectures - a CVAE - and introduces a signature-based drawdown reconstruction cost loss term. The result is a host of realistic drawdown scenarios, where the optimal portfolio is defined as the ensemble expectation of min drawdown optimizers.
 
-<iframe src="./assets/Portfolio_drawdown_optimization_with_generative_machine_learning___opportunities_and_pitfalls__RFinance.pdf#view=FitH" style="width: 70%; height: 50vh"></iframe>
+###### Preview 
+<iframe src="./assets/Portfolio_drawdown_optimization_with_generative_machine_learning___opportunities_and_pitfalls__RFinance.pdf#view=FitV" style="width: 70%; height: 50vh"></iframe>
 
+###### Download 
 Download the pdf below:
 
 [Portfolio drawdown optimization with generative machine learning](./assets/Portfolio_drawdown_optimization_with_generative_machine_learning___opportunities_and_pitfalls__RFinance.pdf)
@@ -80,7 +87,7 @@ When X is not a scalar but a path, the signature terms play the role of the natu
 
 In this support document to the generative ML paper above, we discuss that, for paths of bounded variation, the drawdown of a path is bounded by the variation of the path, such that this approximation makes sense. We reiterate the main messages from rough path theory, propose drawdown as a non-linear dynamic system and discuss the adequacy of these regressions on real  world data.
 
-<iframe src="./assets/Drawdown_as_a_non_linear_dynamic_system%20(10).pdf#view=FitH" style="width: 70%; height: 50vh"></iframe>
+<iframe src="./assets/Drawdown_as_a_non_linear_dynamic_system%20(10).pdf#view=FitV" style="width: 70%; height: 50vh"></iframe>
 
 Download the pdf below:
 
@@ -94,8 +101,10 @@ Download the pdf below:
 
 A drawdown is a price fall relative to the historical maximum. Simulation of drawdown-realistic markets is a difficult problem as this path dependent measure depends on the drift, volatility and autocorrelation of the underlying process. But it is an important task, for instance in pricing drawdown insurance options or portfolio drawdown optimization. Handcrafting a parametric process that fully encapsulates drawdown parameters in its dynamics has not been done in literature. Mostly researchers have referred to standard processes such as Brownian motion, where the drawdown distribution can be derived from Levy’s theorem. We advocate an essentially non-parametric approach from machine learning, combining a variational autoencoder generative model with a path signature-based drawdown reconstruction loss function. Machine learning requires a system of differentiable equations that can provide numerical simulations by iteration or learning. Drawdown as an evaluation metric is highly non-trivial as its complexity depends on path length, and as it is discontinous in the continously differentiability sense which impedes evaluating the impact of a change in a parameterised path on its drawdown. By expressing drawdown as essentially a non-linear dynamic system, we propose to resolve this smoothing by approximating drawdown using a path signature’s universality property. We appreciate that this gives a mathematically non-trivial, non-commutative exponential alternative for smoothed, differentiable expressions of drawdown that gives one leeway to simulate drawdown-realistic markets by including a drawdown evaluation metric in the learning objective.
 
-<iframe src="./assets/Generating_drawdown_realistic_markets_with_path_signatures___PROPOSITIONS (2).pdf#view=FitH" style="width: 70%; height: 50vh"></iframe>
+###### Preview 
+<iframe src="./assets/Generating_drawdown_realistic_markets_with_path_signatures___PROPOSITIONS (2).pdf#view=FitV" style="width: 70%; height: 50vh"></iframe>
 
+###### Download 
 Download the pdf below :
 
 [Generating drawdown-realistic markets using path signatures](./assets/Generating_drawdown_realistic_markets_with_path_signatures___PROPOSITIONS (2).pdf)
@@ -108,8 +117,10 @@ Download the pdf below :
 
 Data-driven portfolio construction is non-parametric in the sense that it does not impose its objective on a parametric representation of input paths, such as a variance-covariance matrix, but rather imposes its objective directly on these paths without having to make assumptions on their underlying data generating process (DGP). The advantage is thus that one can optimize on much richer dynamics than typical DGP assumptions, e.g. Gaussian assumptions behind mean-variance optimization. The main disadvantage is that one can seemingly interpret the parameters that gave rise to the optimal portfolios not that easily anymore, and for instance do sensitivity analysis, i.e. how will the portfolio change when parameter x or y in- or decreases? This is conducive to the black box perception of increasingly more data-driven portfolio construction tools. However, tools from explainable AI such as Shapley values, which are mathematically principled contribution estimators of features to their output, can be used to overcome this issue. We advocate a novel approach that combines the powerful statistical approach of conditional bootstrapping with Shapley values that attribute changing optimal portfolio weights to changing market conditions. The empirical usefulness is shown on a US equity portfolio backtest, where the portfolio manager gets a better insight in his or her portfolio composition and its sensitivity to changing market conditions.
 
-<iframe src="./assets/Explainable_non_parametric_portfolio_construction_with_conditional_bootstrapped_Shapley_values (9).pdf#view=FitH" style="width: 70%; height: 50vh"></iframe>
+###### Preview 
+<iframe src="./assets/Explainable_non_parametric_portfolio_construction_with_conditional_bootstrapped_Shapley_values (9).pdf#view=FitV" style="width: 70%; height: 50vh"></iframe>
 
+###### Download 
 Download the pdf below:
 
 [Explainable data-driven portfolio construction with conditional bootstrapped Shapley values](./assets/Explainable_non_parametric_portfolio_construction_with_conditional_bootstrapped_Shapley_values (9).pdf)

@@ -6,8 +6,11 @@ layout: page
 
 A collection of slides with the title "Roboadvisors, quant algorithms inside the robots" that discusses roboadvisors, commonly used methods, ML/AI concepts and resources and some of my research. Presented to BSC, Greenhill capital, etc. in early Spring 2023.
 
-<iframe src="./assets/Omnibus.pdf#view=FitH" style="width: 70%; height: 50vh"></iframe>
+###### Preview 
+<iframe src="./assets/Omnibus.pdf#view=FitV" style="width: 70%; height: 50vh"></iframe>
 
+
+###### Download 
 Download the slides here:
 [Omnibus presentation](./assets/Omnibus.pdf).
 
@@ -18,9 +21,10 @@ Download the slides here:
 ## RFinance presentation
 
 Presented at the 2022 RFinance conference in Chicago, IL. 
+###### Preview 
+<iframe src="./assets/Rfinance.pdf#view=FitV" style="width: 70%; height: 50vh"></iframe>
 
-<iframe src="./assets/Rfinance.pdf#view=FitH" style="width: 70%; height: 50vh"></iframe>
-
+###### Download 
 Download the presentation here: [Rfinance](./assets/Rfinance.pdf).
 
 ----
@@ -31,7 +35,8 @@ Download the presentation here: [Rfinance](./assets/Rfinance.pdf).
 
 Presented at the Data Science in Finance and Insurance course of UGent MSc in Banking and Finance. The aim was to detect market regimes and do TAA / market timing using ML.
 
+###### Preview 
+<iframe src="./assets/TAA-UGent.pdf#view=FitV" style="width: 70%; height: 50vh"></iframe>
 
-<iframe src="./assets/TAA-UGent.pdf#view=FitH" style="width: 70%; height: 50vh"></iframe>
-
+###### Download 
 Download the presentation here: [TAA-UGent](./assets/TAA-UGent.pdf).
