@@ -1,0 +1,12 @@
+I"›<h4 id="rfinance-conference-paper">R/Finance conference paper</h4>
+
+<p>This short paper was presented at the 2022 R/Finance conference in Chicago, IL. It picks one of the above-mentioned architectures - a CVAE - and introduces a signature-based drawdown reconstruction cost loss term. The result is a host of realistic drawdown scenarios, where the optimal portfolio is defined as the ensemble expectation of min drawdown optimizers.</p>
+
+<h6 id="preview">Preview</h6>
+<iframe src="../assets/Portfolio_drawdown_optimization_with_generative_machine_learning___opportunities_and_pitfalls__RFinance.pdf#view=FitV" style="width: 70%; height: 50vh"></iframe>
+
+<h6 id="download">Download</h6>
+<p>Download the pdf below:</p>
+
+<p><a href="../assets/Portfolio_drawdown_optimization_with_generative_machine_learning___opportunities_and_pitfalls__RFinance.pdf">Portfolio drawdown optimization with generative machine learning</a></p>
+:ET
