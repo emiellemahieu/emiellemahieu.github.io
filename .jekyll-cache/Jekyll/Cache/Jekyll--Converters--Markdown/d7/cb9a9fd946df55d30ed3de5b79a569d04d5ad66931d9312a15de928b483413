@@ -1,0 +1,41 @@
+I"�<h2 id="omnibus-presentation">Omnibus presentation</h2>
+
+<p>A collection of slides with the title “Roboadvisors, quant algorithms inside the robots” that discusses roboadvisors, commonly used methods, ML/AI concepts and resources and some of my research. Presented to BSC, Greenhill capital, etc. in early Spring 2023.</p>
+
+<details><summary>Preview</summary>
+  
+<iframe src="./assets/Omnibus.pdf#view=FitV" style="width: 70%; height: 50vh"></iframe>
+</details>
+
+<details><summary>Download</summary>
+  
+Download the slides here: [Omnibus presentation](./assets/Omnibus.pdf).
+</details>
+
+<hr />
+
+<hr />
+
+<h2 id="rfinance-presentation">RFinance presentation</h2>
+
+<p>Presented at the 2022 RFinance conference in Chicago, IL.</p>
+<h6 id="preview">Preview</h6>
+<iframe src="./assets/Rfinance.pdf#view=FitV" style="width: 70%; height: 50vh"></iframe>
+
+<h6 id="download">Download</h6>
+<p>Download the presentation here: <a href="./assets/Rfinance.pdf">Rfinance</a>.</p>
+
+<hr />
+
+<hr />
+
+<h2 id="tactical-asset-allocation-with-ml">Tactical asset allocation with ML</h2>
+
+<p>Presented at the Data Science in Finance and Insurance course of UGent MSc in Banking and Finance. The aim was to detect market regimes and do TAA / market timing using ML.</p>
+
+<h6 id="preview-1">Preview</h6>
+<iframe src="./assets/TAA-UGent.pdf#view=FitV" style="width: 70%; height: 50vh"></iframe>
+
+<h6 id="download-1">Download</h6>
+<p>Download the presentation here: <a href="./assets/TAA-UGent.pdf">TAA-UGent</a>.</p>
+:ET
