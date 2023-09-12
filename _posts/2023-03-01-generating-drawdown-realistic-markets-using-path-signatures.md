@@ -19,3 +19,5 @@ A novel generative machine learning approach for the simulation of sequences of 
 Download the pdf below :
 
 [Generating drawdown-realistic financial price paths using path signatures](../assets/2309.04507.pdf)
+
+[Link to Arxiv page](https://arxiv.org/abs/2309.04507)
