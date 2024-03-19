@@ -9,7 +9,7 @@ baseurl:
 # Title of the Site
 title: Emiel Lemahieu
 # Description of the Site
-description: Quantitative Researcher
+description: Quantitative Research
 # URL of Image of the Site
 site-image: ./assets/images/craiyon_210001_A_signature_stock_trading_algorithm_with_blood_red_colours_and_wine_red_colours.png
 # Keywords of the Site
@@ -23,7 +23,7 @@ heroimage_mobile:  "https://media.giphy.com/media/Ha6xdymclg2pBgwuw3/giphy.gif"
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
-email: emiel.lemahieu@investsuite.com
+email: emiel.lemahieu@hotmail.com
 facebook_username: 
 twitter_username: 
 instagram_username:
