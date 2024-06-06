@@ -67,3 +67,16 @@ Download the pdf below:
 Download the pdf below:
 
 [Currency hedging in an iVaR setting ](./assets/VGXS1.pdf)
+
+----
+
+##### Pairs Trading with Expected Signatures and Reinforcement Learning (2024)
+<img src="./assets/images/leuven.png" alt="drawing" width="70"/>
+
+**Laurent Balesse (Katholieke Universiteit Leuven, Leuven, Belgium)**
+
+> **Abstract** The thesis researches a new methodology for pairs trading. The methodology is a two step process involving the selection of optimal pairs through a developed expected signature model based on the relation between signatures and future spreads and the relation between signatures and potential pairs trading PnL and optimal trading of the selected spreads with deep reinforcement learning. The established signature relations are evaluated and the expected signature model is benchmarked against the classical cointegration selection model. Furthermore, the training of the reinforcement learner is analysed and compared with a random agent. The trained model is benchmarked against a random agent and a classic execution model based on standard deviation. The results indicate a strong relation between signatures of a spread and the potential pairs trading PnL. However, the expected signature model struggles with the prediction of future spread values, mostly due to the lack of data. On the execution side the deep Q-learning agent manages to outperform the random agent and the benchmark when comparing cumulative rewards.
+
+Download the pdf below:
+
+[Pairs Trading with Expected Signatures and Reinforcement Learning](./assets/MSc_AI__Pairs_Trading_with_Signatures_and_Reinforcement_Learning-6.pdf)
